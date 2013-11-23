@@ -12,28 +12,28 @@
 9 silly lockFile 3a52ce78- .
 10 verbose lock . /Users/CashMacbook/.npm/3a52ce78-.lock
 11 verbose read json package.json
-12 verbose tar pack [ '/var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/tmp.tgz',
+12 verbose tar pack [ '/var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/tmp.tgz',
 12 verbose tar pack   '.' ]
-13 verbose tarball /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/tmp.tgz
+13 verbose tarball /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/tmp.tgz
 14 verbose folder .
 15 info prepublish urlcode-json@0.0.1
-16 silly lockFile 03d49ad7-69577-0-6858455326873809-tmp-tgz /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/tmp.tgz
-17 verbose lock /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/tmp.tgz /Users/CashMacbook/.npm/03d49ad7-69577-0-6858455326873809-tmp-tgz.lock
-18 silly lockFile 03d49ad7-69577-0-6858455326873809-tmp-tgz /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/tmp.tgz
-19 verbose tar unpack /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/tmp.tgz
-20 silly lockFile 29be9ba2-69577-0-6858455326873809-package /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package
-21 verbose lock /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package /Users/CashMacbook/.npm/29be9ba2-69577-0-6858455326873809-package.lock
+16 silly lockFile 8d22e46a-33049-0-9979926175437868-tmp-tgz /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/tmp.tgz
+17 verbose lock /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/tmp.tgz /Users/CashMacbook/.npm/8d22e46a-33049-0-9979926175437868-tmp-tgz.lock
+18 silly lockFile 8d22e46a-33049-0-9979926175437868-tmp-tgz /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/tmp.tgz
+19 verbose tar unpack /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/tmp.tgz
+20 silly lockFile ece4ed57-33049-0-9979926175437868-package /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/package
+21 verbose lock /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/package /Users/CashMacbook/.npm/ece4ed57-33049-0-9979926175437868-package.lock
 22 silly gunzTarPerm modes [ '755', '644' ]
 23 silly gunzTarPerm extractEntry package.json
 24 silly gunzTarPerm extractEntry README.md
 25 silly gunzTarPerm extractEntry index.js
-26 verbose read json /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package/package.json
-27 silly lockFile 29be9ba2-69577-0-6858455326873809-package /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package
-28 verbose from cache /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package/package.json
+26 verbose read json /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/package/package.json
+27 silly lockFile ece4ed57-33049-0-9979926175437868-package /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/package
+28 verbose from cache /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/package/package.json
 29 verbose tar pack [ '/Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz',
-29 verbose tar pack   '/var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package' ]
+29 verbose tar pack   '/var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/package' ]
 30 verbose tarball /Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz
-31 verbose folder /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package
+31 verbose folder /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72404/1385201933049-0.9979926175437868/package
 32 silly lockFile 26d13a0d-m-urlcode-json-0-0-1-package-tgz /Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz
 33 verbose lock /Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz /Users/CashMacbook/.npm/26d13a0d-m-urlcode-json-0-0-1-package-tgz.lock
 34 silly lockFile 26d13a0d-m-urlcode-json-0-0-1-package-tgz /Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz
@@ -71,13 +71,13 @@
 54 verbose url raw urlcode-json
 55 verbose url resolving [ 'https://registry.npmjs.org/', './urlcode-json' ]
 56 verbose url resolved https://registry.npmjs.org/urlcode-json
-57 info trying registry request attempt 1 at 18:17:49
+57 info trying registry request attempt 1 at 18:18:53
 58 http PUT https://registry.npmjs.org/urlcode-json
 59 http 409 https://registry.npmjs.org/urlcode-json
 60 verbose url raw urlcode-json
 61 verbose url resolving [ 'https://registry.npmjs.org/', './urlcode-json' ]
 62 verbose url resolved https://registry.npmjs.org/urlcode-json
-63 info trying registry request attempt 1 at 18:17:51
+63 info trying registry request attempt 1 at 18:18:55
 64 http GET https://registry.npmjs.org/urlcode-json
 65 http 200 https://registry.npmjs.org/urlcode-json
 66 error publish fail Cannot publish over existing version.
