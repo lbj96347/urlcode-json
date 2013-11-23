@@ -1,0 +1,93 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/CashMacbook/.nvm/v0.8.11/bin/node',
+1 verbose cli   '/Users/CashMacbook/.nvm/v0.8.11/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.11
+4 verbose publish [ '.' ]
+5 verbose read json /Library/WebServer/Documents/urlcode-json/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/CashMacbook/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/tmp.tgz
+14 verbose folder .
+15 info prepublish urlcode-json@0.0.1
+16 silly lockFile 03d49ad7-69577-0-6858455326873809-tmp-tgz /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/tmp.tgz
+17 verbose lock /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/tmp.tgz /Users/CashMacbook/.npm/03d49ad7-69577-0-6858455326873809-tmp-tgz.lock
+18 silly lockFile 03d49ad7-69577-0-6858455326873809-tmp-tgz /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/tmp.tgz
+19 verbose tar unpack /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/tmp.tgz
+20 silly lockFile 29be9ba2-69577-0-6858455326873809-package /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package
+21 verbose lock /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package /Users/CashMacbook/.npm/29be9ba2-69577-0-6858455326873809-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry README.md
+25 silly gunzTarPerm extractEntry index.js
+26 verbose read json /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package/package.json
+27 silly lockFile 29be9ba2-69577-0-6858455326873809-package /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package
+28 verbose from cache /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package/package.json
+29 verbose tar pack [ '/Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz',
+29 verbose tar pack   '/var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package' ]
+30 verbose tarball /Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz
+31 verbose folder /var/folders/2d/s0blry1n1h1c1415fzt0yrnh0000gp/T/npm-72381/1385201869577-0.6858455326873809/package
+32 silly lockFile 26d13a0d-m-urlcode-json-0-0-1-package-tgz /Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz
+33 verbose lock /Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz /Users/CashMacbook/.npm/26d13a0d-m-urlcode-json-0-0-1-package-tgz.lock
+34 silly lockFile 26d13a0d-m-urlcode-json-0-0-1-package-tgz /Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz
+35 silly lockFile ad7fb592-k-npm-urlcode-json-0-0-1-package /Users/CashMacbook/.npm/urlcode-json/0.0.1/package
+36 verbose lock /Users/CashMacbook/.npm/urlcode-json/0.0.1/package /Users/CashMacbook/.npm/ad7fb592-k-npm-urlcode-json-0-0-1-package.lock
+37 silly lockFile ad7fb592-k-npm-urlcode-json-0-0-1-package /Users/CashMacbook/.npm/urlcode-json/0.0.1/package
+38 verbose tar unpack /Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz
+39 silly lockFile ad7fb592-k-npm-urlcode-json-0-0-1-package /Users/CashMacbook/.npm/urlcode-json/0.0.1/package
+40 verbose lock /Users/CashMacbook/.npm/urlcode-json/0.0.1/package /Users/CashMacbook/.npm/ad7fb592-k-npm-urlcode-json-0-0-1-package.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry README.md
+44 silly gunzTarPerm extractEntry index.js
+45 verbose read json /Users/CashMacbook/.npm/urlcode-json/0.0.1/package/package.json
+46 silly lockFile ad7fb592-k-npm-urlcode-json-0-0-1-package /Users/CashMacbook/.npm/urlcode-json/0.0.1/package
+47 silly shasum updated bytes 970
+48 info shasum 8d57e0f516ac275d17d33e22b98a642fe7ba874c
+48 info shasum /Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz
+49 verbose from cache /Users/CashMacbook/.npm/urlcode-json/0.0.1/package/package.json
+50 verbose chmod /Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz 644
+51 verbose chown /Users/CashMacbook/.npm/urlcode-json/0.0.1/package.tgz [ 502, 20 ]
+52 silly lockFile 3a52ce78- .
+53 silly publish { name: 'urlcode-json',
+53 silly publish   version: '0.0.1',
+53 silly publish   description: 'This is a tool for converting JSON object to an urlencode string like python\'s urllib.urlencode() method or decode an url to a JSON object.',
+53 silly publish   main: 'index.js',
+53 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+53 silly publish   repository: { type: 'git', url: 'git@github.com:lbj96347/urlcode-json.git' },
+53 silly publish   keywords: [ 'node.js', 'urlencode', 'urldecode', 'url', 'decode', 'encode' ],
+53 silly publish   author: { name: 'CashLee' },
+53 silly publish   license: 'BSD',
+53 silly publish   readme: 'urlcode-json\n==============\n\nThis is a tool for converting JSON object to an urlencode string like python\'s urllib.urlencode() method or decode an url to a JSON object.\n\nUSAGE&Example\n=====\n\nvar urlcodeJson = require(\'urlcode-json\');\nvar str_1 = urlcodeJson.encode( { "name" : cashlee" , "language" : "cantonese" } , true );\nconsole.log( str_1 );//"name%3Dcashlee%26language%3Dcantonese"\n\nvar str_2 = urlcodeJson.decode( "name%3Dcashlee%26language%3Dcantonese" );\nconsole.log( str_2 );//{ "name" : cashlee" , "language" : "cantonese" } \n\nCommand-line interface\n======================\n\ncoming soon ... \n',
+53 silly publish   _id: 'urlcode-json@0.0.1',
+53 silly publish   dist: { shasum: '8d57e0f516ac275d17d33e22b98a642fe7ba874c' } }
+54 verbose url raw urlcode-json
+55 verbose url resolving [ 'https://registry.npmjs.org/', './urlcode-json' ]
+56 verbose url resolved https://registry.npmjs.org/urlcode-json
+57 info trying registry request attempt 1 at 18:17:49
+58 http PUT https://registry.npmjs.org/urlcode-json
+59 http 409 https://registry.npmjs.org/urlcode-json
+60 verbose url raw urlcode-json
+61 verbose url resolving [ 'https://registry.npmjs.org/', './urlcode-json' ]
+62 verbose url resolved https://registry.npmjs.org/urlcode-json
+63 info trying registry request attempt 1 at 18:17:51
+64 http GET https://registry.npmjs.org/urlcode-json
+65 http 200 https://registry.npmjs.org/urlcode-json
+66 error publish fail Cannot publish over existing version.
+66 error publish fail Bump the 'version' field, set the --force flag, or
+66 error publish fail     npm unpublish 'urlcode-json@0.0.1'
+66 error publish fail and try again
+67 error System Darwin 13.0.0
+68 error command "/Users/CashMacbook/.nvm/v0.8.11/bin/node" "/Users/CashMacbook/.nvm/v0.8.11/bin/npm" "publish"
+69 error cwd /Library/WebServer/Documents/urlcode-json
+70 error node -v v0.8.11
+71 error npm -v 1.1.62
+72 error code EPUBLISHCONFLICT
+73 verbose exit [ 1, true ]

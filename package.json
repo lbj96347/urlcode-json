@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": "git@github.com:lbj96347/urlcode-json.git",
   "keywords": [
     "node.js",
     "urlencode",
