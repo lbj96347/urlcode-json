@@ -1,6 +1,6 @@
 {
   "name": "urlcode-json",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "This is a tool for converting JSON object to an urlencode string like python's urllib.urlencode() method or decode an url to a JSON object.", 
   "main": "index.js",
   "scripts": {

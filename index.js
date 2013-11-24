@@ -2,23 +2,22 @@ exports.encode = function ( data , encodeornot ){
   if ( typeof( data ) == 'object' ) {
     var out = new Array();
     for (key in data) {
-      out.push(key + '=' + data[key]);
+      out.push(key + '=' + encodeURIComponent( data[key] ) );
     }
     var finalStr = out.join('&');
-    return ( encodeornot ? encodeURIComponent( finalStr ) : finalStr )  
+    return ( finalStr )  
   } else {
     console.warn('error occur');
   }
 };
 
-exports.decode = function ( data ){
+exports.decode = function ( data , decodeornot ){
   if( typeof(data) == 'string' ){
-    var str = decodeURIComponent( data );
-    var objArr = str.split('&');
+    var objArr = data.split('&');
     var newobj = {};
     for( var i in objArr ){
       var key = objArr[i].split('=')[0];
-      var value = objArr[i].split('=')[1];
+      var value = ( decodeornot ? decodeURIComponent( objArr[i].split('=')[1] ) : objArr[i].split('=')[1] );
       newobj[key] = value;
     }
     return newobj;
