@@ -1,3 +1,14 @@
+var program = require('commander');
+
+/*
+ *
+ * Author : CashLee
+ * Project : urlencode and urldecode apis for node.js
+ * Date : 2013/12/02
+ * API : urlcode.encode => python : urllib.encode()
+ *       urlcode.decode 
+ */
+
 exports.encode = function ( data , encodeornot ){
   if ( typeof( data ) == 'object' ) {
     var out = new Array();
@@ -24,4 +35,6 @@ exports.decode = function ( data , decodeornot ){
   }else{
     console.warn('error occur');
   }
-}
+};
+
+
