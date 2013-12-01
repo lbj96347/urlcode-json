@@ -2,7 +2,7 @@ exports.encode = function ( data , encodeornot ){
   if ( typeof( data ) == 'object' ) {
     var out = new Array();
     for (key in data) {
-      out.push(key + '=' + encodeURIComponent( data[key] ) );
+      out.push(key + '=' + ( encodeornot ? encodeURIComponent( data[key] ) : data[key] ) );
     }
     var finalStr = out.join('&');
     return ( finalStr )  
