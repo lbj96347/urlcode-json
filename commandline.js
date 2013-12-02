@@ -1,4 +1,5 @@
-var urlcode = require('../index.js');
+var urlcode = require('./index.js');
+var program = require('commander');
 /*
  * Author: CashLee
  * Command-line interface
@@ -16,6 +17,7 @@ program
  .command('urlencode <cmd>')
  .description('run urlencode ... ')
  .action(function(cmd){
+   cmd = cmd.replace(' ','').replace('{','{"').replace('}','"}').replace(':','":"');
    var newcmd;
    try {
      newcmd = JSON.parse(cmd);
@@ -32,6 +34,7 @@ program
  .command('urldecode <cmd>')
  .description('run urldecode ... ')
  .action(function(cmd){
+   console.log('cmd string is ', cmd);
    var newcmd;
    try {
      var finalObj = urlcode.decode(cmd);
@@ -42,3 +45,9 @@ program
      console.warn('error message is ' , err);
    }
  });
+
+exports.init = function (){
+
+  program.parse(process.argv);
+
+}

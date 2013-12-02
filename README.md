@@ -17,4 +17,12 @@ USAGE&Example
 Command-line interface
 ======================
 
-  coming soon ... 
+    $ node urlcode-json {"name":"cash","language":"en"}
+
+    > name=cash&language=en
+
+    $ node urlcode-json name=cash\&language=en
+
+    > {name:'cash',language:'en'}
+
+    (P.S : Remember,in command-line you should add '\' before each '&')

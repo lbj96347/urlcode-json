@@ -1,4 +1,5 @@
 var program = require('commander');
+var commandline = require('./commandline.js');
 
 /*
  *
@@ -37,4 +38,4 @@ exports.decode = function ( data , decodeornot ){
   }
 };
 
-
+commandline.init();
